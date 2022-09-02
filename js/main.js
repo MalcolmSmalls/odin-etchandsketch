@@ -25,9 +25,16 @@ createDivs()
 gridDivs.forEach((grid, i) => {
     grid.addEventListener('mouseover', function(){
         hoveredGrid = grid
-        hoveredGrid.style.cssText = "border:solid 1px; border-color:black; width:20px; height:20px;background-color:black;"
-    }
-)})
+        hoveredGrid.style.cssText = "border:solid 1px; border-color:black; width:20px; height:20px;background-color:black;"    
+    })
+})
+
+// gridDivs.forEach((grid, i) => {
+//     grid.addEventListener('mousedown', function(){
+//         hoveredGrid = grid
+//         hoveredGrid.style.cssText = "border:solid 1px; border-color:black; width:20px; height:20px;background-color:black;"
+//     })
+// })
 
 // let divGridVar = document.querySelector('.divGrid')
 
