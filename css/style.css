@@ -25,6 +25,15 @@ body {
 
 }
 
+.howManyBoxes {
+  display:flex;
+  margin: 50px auto;
+}
+
+.button-container{
+  width:100%;
+}
+
 .container {
   margin:50px auto;
   display:flex;
